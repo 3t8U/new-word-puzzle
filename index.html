@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
-    <script src="js/scripts.js" charset="utf-8"></script>
-    </script>
-    <title>Word Puzzle</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Type in a sentence to play!</h1>
-      <br>
-      <input class="form-control" type="text" placeholder="Enter your sentence here ;)">
-      <br>
-      <button type="button" class="btn btn-danger">Reveal Your Puzzle!</button>
-
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</script>
+<title>Word Puzzle</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Type in a sentence to play!</h1>
+    <br>
+    <div id="enter">
+      <form>
+        <input class="form-control" id="answer" type="text" placeholder="Enter your sentence here ;)">
+        <br>
+        <button type="submit" class="btn btn-danger">Reveal Your Puzzle!</button>
+      </form>
     </div>
+    <div>
+      <p><span id="result"></span></p>
+    </div>
+  </div>
 
-  </body>
+</body>
 </html>
