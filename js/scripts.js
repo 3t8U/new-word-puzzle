@@ -10,7 +10,7 @@ function withoutVowels(string) {
     strWithoutVowels.push(string[i])
     }
   }
-  strWithoutVowels = strWithoutVowels.join('');
+  strWithoutVowels = strWithoutVowels.join('-');
   return strWithoutVowels;
 
 }
